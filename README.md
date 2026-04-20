@@ -9,6 +9,8 @@ falls back asleep. Between refreshes the whole board is in deep sleep.
 During the ~5–10 s panel update the MCU sits in auto light sleep whenever
 the driver is waiting on `BUSY`.
 
+![comfort-board prototype](assets/preview.jpg)
+
 ## Why "comfort"
 
 The firmware doesn't just show numbers — it classifies the current reading
