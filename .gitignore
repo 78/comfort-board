@@ -1,0 +1,9 @@
+.cache/
+assets/
+build/
+.vscode/
+.devcontainer/
+dependencies.lock
+sdkconfig.old
+sdkconfig
+managed_components/

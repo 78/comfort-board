@@ -1,0 +1,22 @@
+idf_component_register(
+    SRCS
+        "main.cc"
+        "hardware/display/epaper_bus.cc"
+        "hardware/display/epaper_driver.cc"
+        "hardware/display/jd79661_driver.cc"
+        "gui/lvgl_display.cc"
+        "gui/humidity_screen.cc"
+        "gui/fonts/font_digits.c"
+        "gui/fonts/font_label.c"
+    INCLUDE_DIRS
+        "."
+        "common"
+        "hardware"
+        "gui"
+    PRIV_REQUIRES
+        spi_flash
+        esp_driver_gpio
+        esp_driver_spi
+        esp_pm
+        esp_timer
+)
